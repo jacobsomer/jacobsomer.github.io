@@ -4,8 +4,8 @@
 
 ### Projects
 
-[Doubly Linked List Implementation (Python)](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Doubly Linked List Implementation (Python)](/Linked_List.py)
+<img src="/Linked_List.py?raw=true"/>
 
 ---
 [Thailand Geospatial Visualization](/pdf/sample_presentation.pdf)
