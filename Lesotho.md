@@ -1,6 +1,6 @@
 # Lesotho Visualized by Jacob Somer
 ## Introduction 
-        This sample project was created to demonstrate some of my capabilities with R. To begin this Project, I gathered data from GADM (the Database of Global Administrative Areas), and WorldPop. I then created a data frame that combined 25 different variables sorted by administrative subdivision. After extracting the raster layers into one object, I was then able to perform different functions on the data. 
+This sample project was created to demonstrate some of my capabilities with R. To begin this Project, I gathered data from GADM (the Database of Global Administrative Areas), and WorldPop. I then created a data frame that combined 25 different variables sorted by administrative subdivision. After extracting the raster layers into one object, I was then able to perform different functions on the data. 
         
 ## My Data Frame
 ![](https://github.com/jacobsomer/jacobsomer.github.io/blob/master/Screenshot%20(14).png)
