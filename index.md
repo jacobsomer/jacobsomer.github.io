@@ -12,7 +12,7 @@
 <img src="Thai_pop_2020.png?raw=true"/>
 
 ---
-[Project 3 Title](http://example.com/)
+[Lesotho Population Visualized](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
