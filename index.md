@@ -8,11 +8,11 @@
 <img src="/Linked_List.py?raw=true"/>
 
 ---
-[Thailand Geospatial Visualization](https://github.com/jacobsomer/Workshop/blob/master/Project_1.md)
+[Thailand Geospatial Visualization (R)](https://github.com/jacobsomer/Workshop/blob/master/Project_1.md)
 
 
 ---
-[Lesotho Population Visualized](https://github.com/jacobsomer/jacobsomer.github.io/blob/master/Lesotho.md)
+[Lesotho Population Visualized (R)](https://github.com/jacobsomer/jacobsomer.github.io/blob/master/Lesotho.md)
 
 ---
 
