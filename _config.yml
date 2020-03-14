@@ -2,8 +2,11 @@ title: Jacob Somer # your name (or website title) here
 logo: "/primary.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   Rising Sophmore looking to intern in Computer Science or related field.
+  <br>
   jsomer@email.wm.edu
+  <br>
   703-231-9230
+  <br>
   6213 homespun ln, Falls Church, VA 
   
 theme: jekyll-theme-minimal
