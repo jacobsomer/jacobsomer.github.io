@@ -18,8 +18,8 @@
 
 
 ## Thailand Population Density by Province and District (2020)
-![Thailand](https://github.com/jacobsomer/jacobsomer.github.io/blob/master/lesotho_Pop_Ntl.png)
+![Population and Light](https://github.com/jacobsomer/jacobsomer.github.io/blob/master/lesotho_Pop_Ntl.png)
 
-![Thailand](https://github.com/jacobsomer/Workshop/blob/master/Thai_adm2_bp.png)
+![Population and Topography](https://github.com/jacobsomer/jacobsomer.github.io/blob/master/lesotho_Pop_Slope.png)
 
 ##Final Thoughts
