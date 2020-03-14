@@ -13,13 +13,11 @@
 ![Light Pollution](https://github.com/jacobsomer/jacobsomer.github.io/blob/master/Lesotho_At_Night.png)
 ![Population and Light](https://github.com/jacobsomer/jacobsomer.github.io/blob/master/lesotho_Pop_Ntl.png)
 
-
-
-
-
-
-## Lesotho Population 
-
+## Lesotho Data 
+  
+![](https://github.com/jacobsomer/jacobsomer.github.io/blob/master/lesotho_Pop.png)
+![](https://github.com/jacobsomer/jacobsomer.github.io/blob/master/Screenshot%20(12).png)
+![](https://github.com/jacobsomer/jacobsomer.github.io/blob/master/Screenshot%20(14).png)
 
 
 ##Final Thoughts
