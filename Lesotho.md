@@ -3,7 +3,7 @@
 
 ## Thailand
 
-!(https://github.com/jacobsomer/jacobsomer.github.io/blob/master/Lesotho_Topo.png)
+![](https://github.com/jacobsomer/jacobsomer.github.io/blob/master/Lesotho_Topo.png)
 
  
 ## Thailand Population Density by Province (2020) 
