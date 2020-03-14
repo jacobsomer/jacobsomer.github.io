@@ -8,7 +8,7 @@
 <img src="/Linked_List.py?raw=true"/>
 
 ---
-[Thailand Geospatial Visualization](/pdf/sample_presentation.pdf)
+[Thailand Geospatial Visualization](https://github.com/jacobsomer/Workshop/blob/master/Project_1.md)
 <img src="Thai_pop_2020.png?raw=true"/>
 
 ---
