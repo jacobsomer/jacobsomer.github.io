@@ -9,23 +9,13 @@
 
 ---
 [Thailand Geospatial Visualization](https://github.com/jacobsomer/Workshop/blob/master/Project_1.md)
-<img src="Thai_pop_2020.png?raw=true"/>
+
 
 ---
-[Lesotho Population Visualized](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Lesotho Population Visualized](https://github.com/jacobsomer/jacobsomer.github.io/blob/master/Lesotho.md)
 
 ---
 
-### Category Name 2
-
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
-
----
 
 
 
