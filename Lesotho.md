@@ -24,3 +24,5 @@ I created the maps below in the same way as the maps above. The only difference 
 Below is a linear regression model that predicts population based off of multiple factors. I used the ggplot() and lm() (linear model) commands to excecute the following images. The image on the bottom represents all the data by using the summarize() function. 
 ![](https://github.com/jacobsomer/jacobsomer.github.io/blob/master/lesotho_Pop.png)
 ![](https://github.com/jacobsomer/jacobsomer.github.io/blob/master/Screenshot%20(12).png)
+
+$ pandoc Lesotho.md -s -o test1.pdf
