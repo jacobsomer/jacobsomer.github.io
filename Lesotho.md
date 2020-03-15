@@ -25,4 +25,4 @@ Below is a linear regression model that predicts population based off of multipl
 ![](https://github.com/jacobsomer/jacobsomer.github.io/blob/master/lesotho_Pop.png)
 ![](https://github.com/jacobsomer/jacobsomer.github.io/blob/master/Screenshot%20(12).png)
 
-$ pandoc Lesotho.md -s -o test1.pdf
+        $ pandoc How_I_got_svg-resizer_working_on_Mac_OSX.md -s -o test1.pdf
