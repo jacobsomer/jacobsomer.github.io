@@ -8,7 +8,7 @@
 <img src="/Linked_List.py?raw=true"/>
 
 ---
-[Thailand Geospatial Visualization (R)](https://github.com/jacobsomer/Workshop/blob/master/Project_1.md)
+[Basketball ML Predition (Keras)](https://github.com/jacobsomer/Basketball-ML-Prediction)
 
 
 ---
