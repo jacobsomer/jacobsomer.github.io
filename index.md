@@ -9,6 +9,8 @@
 
 ---
 [Basketball ML Predition (Keras)](https://github.com/jacobsomer/Basketball-ML-Prediction)
+---
+[Notes-APP-Frontend](https://github.com/jacobsomer/notes-app-client)
 
 
 ---
