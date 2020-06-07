@@ -11,7 +11,7 @@
 [Basketball ML Predition (Keras)](https://github.com/jacobsomer/Basketball-ML-Prediction)
 
 ---
-[Notes App Frontend](https://github.com/jacobsomer/serverless-stack-client)
+[Notes App Frontend (JavaScript)](https://github.com/jacobsomer/serverless-stack-client)
 
 
 ---
