@@ -18,6 +18,10 @@
 [Lesotho Population Visualized (R)](https://github.com/jacobsomer/jacobsomer.github.io/blob/master/Lesotho.md)
 
 ---
+[Tajikistan Population Visualized(R)](https://jacobsomer.github.io/Tajikistan_Final_Project/)
+
+---
+
 
 
 
