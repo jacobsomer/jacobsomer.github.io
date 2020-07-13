@@ -22,7 +22,7 @@
 
 ---
 
-[Walmart Sales Prediction](https://github.com/jacobsomer/M5-Forcasting-LSTM-)
+[Walmart Sales Prediction (keras)](https://github.com/jacobsomer/M5-Forcasting-LSTM-)
 
 
 
