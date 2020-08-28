@@ -6,7 +6,7 @@
 
 
 
-[Alpaca API Volume-Based Trading Bot](https://github.com/jacobsomer/Alpaca-Trading-Bot)
+[Alpaca API Volume-Based Trading Bot (python)](https://github.com/jacobsomer/Alpaca-Trading-Bot)
 
 ---
 
