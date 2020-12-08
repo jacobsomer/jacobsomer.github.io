@@ -28,10 +28,6 @@
 
 ---
 
-[Walmart Sales Prediction (keras)](https://github.com/jacobsomer/M5-Forcasting-LSTM-)
-
----
-
 [Merge Sort (C++)](https://github.com/jacobsomer/MergeSort)
 
 ---
