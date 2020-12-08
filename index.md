@@ -16,6 +16,9 @@
 [Notes App Frontend (JavaScript)](https://github.com/jacobsomer/serverless-stack-client)
 
 ---
+[MNIST Image Classifier (Pytorch)](https://github.com/jacobsomer/MNIST-Classifier-Pytorch)
+
+---
 
 [Basketball ML Predition (Keras)](https://github.com/jacobsomer/Basketball-ML-Prediction)
 
