@@ -5,7 +5,11 @@
 ### Projects
 --- 
 
-[Checkout my new personal website here! (react.js)](https://jacobsomerai.netlify.app/)
+
+---
+
+[Checkout my new personal website here (react.js)](https://jacobsomerai.netlify.app)
+
 ---
 
 [Alpaca API Volume-Based Trading Bot (python)](https://github.com/jacobsomer/Alpaca-Trading-Bot)
