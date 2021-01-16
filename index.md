@@ -12,6 +12,12 @@
 
 ---
 
+[Modern Portfolio Theory and LSTMS's (Tesnorflow, Python, Pandas)](https://github.com/jacobsomer/Modern-Portfolio-Theory-and-LSTMs)
+
+---
+[Multivariate Climate Forecast (python, Keras)](https://github.com/jacobsomer/Multivariate-Climate-Forecast)
+
+---
 [Alpaca API Volume-Based Trading Bot (python)](https://github.com/jacobsomer/Alpaca-Trading-Bot)
 
 ---
