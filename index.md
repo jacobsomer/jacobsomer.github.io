@@ -5,7 +5,7 @@
 ### Projects
 --- 
 
-[Checkout my new personal website here (react.js)](https://jacobsomerai.netlify.app)
+[Checkout my new personal website here (react.js)](https://jacobsomerai.com)
 
 ---
 
