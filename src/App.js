@@ -148,6 +148,7 @@ function App() {
                         'linear-gradient(to top, #fff4bc  0%,#fff4bc 25%,#ffd4bc 30%,#ec544c 45%,#f37588  55%,#bf6d9d   60%, #3e2f63  65%, #000000 100%)',
                     height: '300vh',
                     width: '100vw',
+                    WebkitBackfaceVisibility: 'hidden',
                     top:
                         scrollPosition / windowHeight < 0.5
                             ? String(
@@ -285,7 +286,8 @@ function App() {
                             bottom: '0px',
                             left: '0vw',
                             width: '1600px',
-                            height: '25vh'
+                            height: '25vh',
+                            WebkitBackfaceVisibility: 'hidden'
                         }}
                         xmlns="http://www.w3.org/2000/svg"
                         width="1600"
@@ -324,7 +326,8 @@ function App() {
                             bottom: '0px',
                             left: '1600px',
                             width: '1600px',
-                            height: '25vh'
+                            height: '25vh',
+                            WebkitBackfaceVisibility: 'hidden'
                         }}
                         xmlns="http://www.w3.org/2000/svg"
                         width="1600"
@@ -360,9 +363,11 @@ function App() {
                     <svg
                         style={{
                             position: 'fixed',
+                            top: '0',
                             bottom: '0px',
                             left: '3200px',
-                            width: '1600px'
+                            width: '1600px',
+                            WebkitBackfaceVisibility: 'hidden'
                         }}
                         xmlns="http://www.w3.org/2000/svg"
                         width="1600"
@@ -515,23 +520,23 @@ function App() {
                         </Fade>
                     </div>
                 </div>
-            </div>
-            <div
-                id="box"
-                style={{
-                    position: 'relative',
-                    top: '120rem',
-                    maxWidth: '900px',
-                    width: '100vw',
-                    height: '100vh',
-                    left: '0',
-                    transform: 'translate(-50%)',
-                    left: '50%',
-                    msOverflowStyle: 'none',
-                    padding: '1rem'
-                }}>
-                <Portfolio />
-                <div style={{ position: 'relative', height: '25vh' }}></div>
+                <div
+                    id="box"
+                    style={{
+                        position: 'relative',
+                        top: '80rem',
+                        maxWidth: '900px',
+                        width: '100vw',
+                        height: '100vh',
+                        left: '0',
+                        transform: 'translate(-50%)',
+                        left: '50%',
+                        msOverflowStyle: 'none',
+                        padding: '1rem'
+                    }}>
+                    <Portfolio />
+                    <div style={{ position: 'relative', height: '25vh' }}></div>
+                </div>
             </div>
         </div>
     )
