@@ -59,7 +59,7 @@ export default function Portfolio() {
                         'Tensorflow, Google Trends API, Statsmodels'
                     }></Project>
             </div>
-            <div class="flex-item-right">2</div>
+            <div class="flex-item-right"></div>
         </div>
     )
 }

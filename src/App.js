@@ -256,7 +256,7 @@ function App() {
                         backgroundPosition:
                             '50% ' +
                             Math.max(
-                                Math.round(100 - 200 * (ycoord / windowHeight)),
+                                Math.round(100 - ycoord / windowHeight),
                                 0
                             ) +
                             '%'
@@ -282,20 +282,14 @@ function App() {
                     <svg
                         style={{
                             position: 'fixed',
-                            bottom:
-                                scrollPosition / windowHeight > 2
-                                    ? Math.round(
-                                          (-scrollPosition / windowHeight + 2) *
-                                              25
-                                      ) + 'vh'
-                                    : '0px',
+                            bottom: '0px',
                             left: '0vw',
                             width: '1600px',
                             height: '25vh'
                         }}
                         xmlns="http://www.w3.org/2000/svg"
                         width="1600"
-                        height="198">
+                        height="50vh">
                         <defs>
                             <linearGradient
                                 id="a"
@@ -327,13 +321,7 @@ function App() {
                     <svg
                         style={{
                             position: 'fixed',
-                            bottom:
-                                scrollPosition / windowHeight > 2
-                                    ? Math.round(
-                                          (-scrollPosition / windowHeight + 2) *
-                                              25
-                                      ) + 'vh'
-                                    : '0px',
+                            bottom: '0px',
                             left: '1600px',
                             width: '1600px',
                             height: '25vh'
@@ -372,13 +360,7 @@ function App() {
                     <svg
                         style={{
                             position: 'fixed',
-                            bottom:
-                                scrollPosition / windowHeight > 2
-                                    ? Math.round(
-                                          (-scrollPosition / windowHeight + 2) *
-                                              25
-                                      ) + 'vh'
-                                    : '0px',
+                            bottom: '0px',
                             left: '3200px',
                             width: '1600px'
                         }}
@@ -408,6 +390,7 @@ function App() {
                             }}
                             fill="url(#a)"
                             width="6400px"
+                            height="50vh"
                             fill-rule="evenodd"
                             d="M.005 121C311 121 409.898-.25 811 0c400 0 500 121 789 121v77H0s.005-48 .005-77z"
                             transform="matrix(-1 0 0 1  1600 0)"
@@ -533,12 +516,11 @@ function App() {
                     </div>
                 </div>
             </div>
-
             <div
                 id="box"
                 style={{
-                    position: 'absolute',
-                    top: '320vh',
+                    position: 'relative',
+                    top: '120rem',
                     maxWidth: '900px',
                     width: '100vw',
                     height: '100vh',
@@ -549,6 +531,7 @@ function App() {
                     padding: '1rem'
                 }}>
                 <Portfolio />
+                <div style={{ position: 'relative', height: '25vh' }}></div>
             </div>
         </div>
     )
