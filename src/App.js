@@ -9,7 +9,8 @@ import Fade from 'react-reveal/Fade'
 import MPT from './images/cover.png'
 import Portfolio from './components/Portfolio'
 
-const arr = ['0px', '1600px', '3200px', '4800px']
+const tmp = ['0px', '1600px', '3200px', '4800px']
+const arr = window.innerWidth < 1600 ? [tmp[0]] : tmp
 function App() {
     const [scrollPosition, setScrollPosition] = useState(0)
     const [windowHeight, setWindowHeight] = useState(window.innerHeight)
