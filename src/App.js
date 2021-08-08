@@ -8,6 +8,8 @@ import background from './images/portait.PNG'
 import Fade from 'react-reveal/Fade'
 import MPT from './images/cover.png'
 import Portfolio from './components/Portfolio'
+
+const arr = ['0px', '1600px', '3200px', '4800px']
 function App() {
     const [scrollPosition, setScrollPosition] = useState(0)
     const [windowHeight, setWindowHeight] = useState(window.innerHeight)
@@ -256,9 +258,9 @@ function App() {
                     style={{
                         backgroundPosition:
                             '50% ' +
-                            Math.max(
-                                Math.round(100 - ycoord / windowHeight),
-                                0
+                            Math.min(
+                                Math.round(100 * (1 - ycoord / windowHeight)),
+                                100
                             ) +
                             '%'
                     }}></div>
@@ -280,127 +282,50 @@ function App() {
             </div>
             <div class="ocean" style={{ zIndex: 999 }}>
                 <div class="wave">
-                    <svg
-                        style={{
-                            position: 'fixed',
-                            bottom: '0px',
-                            left: '0vw',
-                            width: '1600px',
-                            height: '25vh',
-                            WebkitBackfaceVisibility: 'hidden'
-                        }}
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="1600"
-                        height="50vh">
-                        <defs>
-                            <linearGradient
-                                id="a"
-                                x1="50%"
-                                x2="50%"
-                                y1="-10.959%"
-                                y2="100%">
-                                <stop
-                                    stop-color="#57BBC1"
-                                    stop-opacity=".25"
-                                    offset="0%"
-                                />
-                                <stop stop-color="#015871" offset="100%" />
-                            </linearGradient>
-                        </defs>
-                        <path
+                    {arr.map((x) => (
+                        <svg
                             style={{
-                                fill: pickHex(
-                                    (((ycoord / windowHeight) * 3) / 2 + 1) / 2
-                                )
+                                position: 'fixed',
+                                // top: '50vh',
+                                left: x,
+                                width: '1600px',
+                                height: '25vh',
+                                WebkitBackfaceVisibility: 'hidden'
                             }}
-                            fill="url(#a)"
-                            width="6400px"
-                            fill-rule="evenodd"
-                            d="M.005 121C311 121 409.898-.25 811 0c400 0 500 121 789 121v77H0s.005-48 .005-77z"
-                            transform="matrix(-1 0 0 1  1600 0)"
-                        />
-                    </svg>
-                    <svg
-                        style={{
-                            position: 'fixed',
-                            bottom: '0px',
-                            left: '1600px',
-                            width: '1600px',
-                            height: '25vh',
-                            WebkitBackfaceVisibility: 'hidden'
-                        }}
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="1600"
-                        height="198">
-                        <defs>
-                            <linearGradient
-                                id="a"
-                                x1="50%"
-                                x2="50%"
-                                y1="-10.959%"
-                                y2="100%">
-                                <stop
-                                    stop-color="#57BBC1"
-                                    stop-opacity=".25"
-                                    offset="0%"
-                                />
-                                <stop stop-color="#015871" offset="100%" />
-                            </linearGradient>
-                        </defs>
-                        <path
-                            style={{
-                                fill: pickHex(
-                                    (((ycoord / windowHeight) * 3) / 2 + 1) / 2
-                                )
-                            }}
-                            fill="url(#a)"
-                            width="6400px"
-                            fill-rule="evenodd"
-                            d="M.005 121C311 121 409.898-.25 811 0c400 0 500 121 789 121v77H0s.005-48 .005-77z"
-                            transform="matrix(-1 0 0 1  1600 0)"
-                        />
-                    </svg>
-                    <svg
-                        style={{
-                            position: 'fixed',
-                            top: '0',
-                            bottom: '0px',
-                            left: '3200px',
-                            width: '1600px',
-                            WebkitBackfaceVisibility: 'hidden'
-                        }}
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="1600"
-                        height="198">
-                        <defs>
-                            <linearGradient
-                                id="a"
-                                x1="50%"
-                                x2="50%"
-                                y1="-10.959%"
-                                y2="100%">
-                                <stop
-                                    stop-color="#57BBC1"
-                                    stop-opacity=".25"
-                                    offset="0%"
-                                />
-                                <stop stop-color="#015871" offset="100%" />
-                            </linearGradient>
-                        </defs>
-                        <path
-                            style={{
-                                fill: pickHex(
-                                    (((ycoord / windowHeight) * 3) / 2 + 1) / 2
-                                )
-                            }}
-                            fill="url(#a)"
-                            width="6400px"
-                            height="50vh"
-                            fill-rule="evenodd"
-                            d="M.005 121C311 121 409.898-.25 811 0c400 0 500 121 789 121v77H0s.005-48 .005-77z"
-                            transform="matrix(-1 0 0 1  1600 0)"
-                        />
-                    </svg>
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="1600"
+                            height="50vh">
+                            <defs>
+                                <linearGradient
+                                    id="a"
+                                    x1="50%"
+                                    x2="50%"
+                                    y1="-10.959%"
+                                    y2="100%">
+                                    <stop
+                                        stop-color="#57BBC1"
+                                        stop-opacity=".25"
+                                        offset="0%"
+                                    />
+                                    <stop stop-color="#015871" offset="100%" />
+                                </linearGradient>
+                            </defs>
+                            <path
+                                style={{
+                                    fill: pickHex(
+                                        (((ycoord / windowHeight) * 3) / 2 +
+                                            1) /
+                                            2
+                                    )
+                                }}
+                                fill="url(#a)"
+                                width="6400px"
+                                fill-rule="evenodd"
+                                d="M.005 121C311 121 409.898-.25 811 0c400 0 500 121 789 121v77H0s.005-48 .005-77z"
+                                transform="matrix(-1 0 0 1  1600 0)"
+                            />
+                        </svg>
+                    ))}
                 </div>
             </div>
             <div class="textContainer">
@@ -519,23 +444,27 @@ function App() {
                             </div>
                         </Fade>
                     </div>
-                </div>
-                <div
-                    id="box"
-                    style={{
-                        position: 'relative',
-                        top: '80rem',
-                        maxWidth: '900px',
-                        width: '100vw',
-                        height: '100vh',
-                        left: '0',
-                        transform: 'translate(-50%)',
-                        left: '50%',
-                        msOverflowStyle: 'none',
-                        padding: '1rem'
-                    }}>
-                    <Portfolio />
-                    <div style={{ position: 'relative', height: '25vh' }}></div>
+                    <div
+                        id="box"
+                        style={{
+                            position: 'absolute',
+                            top: '65rem',
+                            maxWidth: '900px',
+                            width: '100vw',
+                            height: '100vh',
+                            left: '0',
+                            transform: 'translate(-50%)',
+                            left: '50%',
+                            msOverflowStyle: 'none',
+                            padding: '1rem'
+                        }}>
+                        <Portfolio />
+                        <div
+                            style={{
+                                position: 'relative',
+                                height: '25vh'
+                            }}></div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -52,7 +52,7 @@ export default function Project(props) {
                         position: 'absolute',
                         transform: 'translate(-50%,-50%)',
                         top: '50%',
-                        textAlign: 'center',
+                        textAlign: 'left',
                         verticalAlign: 'top',
                         left: '50%',
                         fontSize: '2rem',
@@ -78,7 +78,7 @@ export default function Project(props) {
                     <p
                         style={{
                             position: 'absolute',
-                            fontSize: '.9rem',
+                            fontSize: '.8rem',
                             paddingRight: '1rem'
                         }}>
                         {props.desc}
@@ -87,7 +87,8 @@ export default function Project(props) {
                         style={{
                             position: 'absolute',
                             bottom: '0',
-                            fontSize: '.8rem'
+                            fontSize: '.8rem',
+                            textAlign: 'left'
                         }}>
                         <b>{props.tech}</b>
                     </p>

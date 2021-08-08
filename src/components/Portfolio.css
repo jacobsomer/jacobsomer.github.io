@@ -22,6 +22,14 @@
     flex: 50%;
 }
 
+.flex-item-center {
+    padding: 10px;
+    flex: 100%;
+}
+
+.flex-item-center h1 {
+    color: white;
+}
 /* Responsive layout - makes a one column-layout instead of a two-column layout */
 @media (max-width: 800px) {
     .flex-item-right,

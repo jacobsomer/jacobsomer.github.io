@@ -10,6 +10,9 @@ import google from '../images/google.png'
 export default function Portfolio() {
     return (
         <div class="flex-container">
+            <div class="flex-item-center">
+                <h1>Projects</h1>
+            </div>
             <div class="flex-item-left">
                 <Project
                     background={go}
@@ -53,7 +56,7 @@ export default function Portfolio() {
                     background={google}
                     title={'Google Trends and Unemployment'}
                     desc={
-                        'This data-science focused project includes a paper demonstrating how Google trends have a statistically signifigant effect on U.S. Unemplyment Claims. I use a vector auto-regression and machine learning to accurately forecast the unemployment rate in both the short and long run.'
+                        'This data-science focused project includes a paper demonstrating how Google trends have a statistically signifigant effect on U.S. Unemployment Claims. I use a vector auto-regression and machine learning to accurately forecast the unemployment rate in both the short and long run.'
                     }
                     tech={
                         'Tensorflow, Google Trends API, Statsmodels'

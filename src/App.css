@@ -44,6 +44,7 @@
 .textContainer {
     position: absolute;
     width: 32rem;
+    max-width: 80vw;
     /* background-color: #fb6753; */
     top: 100vh;
     left: 50%;
@@ -153,8 +154,8 @@
 }
 
 .ocean {
-    height: 5%;
-    top: 100%;
+    height: 20%;
+    /* top: 100%; */
     width: 100%;
     position: fixed;
     bottom: 0;
